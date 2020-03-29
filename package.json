@@ -1,5 +1,5 @@
 {
-  "name": "maths.js",
+  "name": "@siroko/math",
   "version": "0.0.1",
   "description": "This is a toolkit for my common used math functions.",
   "main": "./src/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Siroko/maths.js.git"
+    "url": "git+https://github.com/Siroko/math.git"
   },
   "keywords": [
     "mathematics",
@@ -17,10 +17,10 @@
     "utils",
     "javascript"
   ],
-  "author": "Felix Martinez <sirokosan@gmail.com>",
+  "author": "siroko <sirokosan@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Siroko/maths.js/issues"
+    "url": "https://github.com/Siroko/math/issues"
   },
-  "homepage": "https://github.com/Siroko/maths.js#readme"
+  "homepage": "https://github.com/Siroko/math#readme"
 }

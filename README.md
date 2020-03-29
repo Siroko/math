@@ -3,13 +3,13 @@
 Creating a home made Math library with the most common funcitons Im using on my daily creative coding sessions. 
 
 ```js
-import * as maths from "maths.js";
+import * as math from "@siroko/math";
 ```
 
 Alternatively you can import only the functions you need
 
 ```js
-import {lerp, map} from "maths.js";
+import {lerp, map} from "@siroko/math";
 ```
 
 ## Usage
@@ -17,4 +17,4 @@ import {lerp, map} from "maths.js";
 
 ## License
 
-MIT, see [LICENSE.md](http://github.com/Siroko/maths.js/blob/master/LICENSE.md) for details.
+MIT, see [LICENSE.md](http://github.com/Siroko/math/blob/master/LICENSE.md) for details.
