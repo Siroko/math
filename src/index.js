@@ -1,13 +1,13 @@
 /**
  * @function map
+ * @param {float} a1
+ * @param {float} b1
+ * @param {float} a2
+ * @param {float} b2
  * @param {float} value
- * @param {float} x1
- * @param {float} y1
- * @param {float} x2
- * @param {float} y2
  * @returns {float}
  */
-export const map = (value, x1, y1, x2, y2) => (value - x1) * (y2 - x2) / (y1 - x1) + x2;
+export const map = (a1, b1, a2, b2, value) => (value - a1) * (b2 - a2) / (b1 - a1) + a2;
 
 /**
  * @function lerp
