@@ -1,7 +1,7 @@
 import test from 'tape';
-import * as math from '../src/';
+import * as math from '../src/index.mjs';
 
-test('mapValueToRange', ({ test }) => {
+test('map', ({ test }) => {
     test('should map a value from one range to another', t => {
         const { map } = math;
         for(let i = 0; i < 100; i++) {
