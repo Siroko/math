@@ -2,7 +2,7 @@
   "name": "@siroko/math",
   "version": "0.0.2",
   "description": "This is a toolkit for my common used math functions.",
-  "main": "./src/index.js",
+  "main": "./src/index.mjs",
   "scripts": {
     "test": "node ./test/index.mjs"
   },
