@@ -1,6 +1,6 @@
 {
   "name": "@siroko/math",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "This is a toolkit for my common used math functions.",
   "main": "./src/index.mjs",
   "scripts": {
