@@ -36,3 +36,28 @@ export const lerpHex = (a, b, value) => {
     
     return '#' + ((1 << 24) + (rr << 16) + (rg << 8) + rb | 0).toString(16).slice(1);
 }
+
+
+// Function that rounds up to the next power of 2 value.
+const getNextPowerOfTwo = (v) => {
+    return Math.pow(2, Math.ceil(Math.log(v) / Math.log(2)))
+}
+
+/**
+ * Function that returns the smallest pot texture dimensions to fit the
+ * provided number of pixels.
+ * @function getTextureDimensionsPot
+ * @param {Number} value
+ * @returns {Array}
+ */
+export const getTextureDimensionsPot = (value) => {
+    const v = [0,0];
+    const potMajor = Math.sqrt(getNextPowerOfTwo(value));
+    const potMinor = getNextPowerOfTwo(Math.sqrt(value));
+    v[0] = v[1] = potMajor
+    if (potMajor !== potMinor) {
+        v[0] = potMinor; 
+        v[1] = potMinor * 0.5;
+    }
+    return v
+  }
